@@ -1,0 +1,47 @@
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+
+    .nav__list{
+
+
+
+
+        &--item{
+            display: flex;
+
+            &-list.btn button{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 18px;
+                color: #FFFFFF;
+                opacity: 0.7;
+                cursor: pointer;
+                border: none;
+                background-color: transparent;
+            }
+
+
+            &-list{
+                margin-left: 45px;
+                padding: 8px;
+                transition: 0.2s;
+
+                &:hover{
+                    border-bottom: 1px solid #fff;
+                }
+            }
+
+
+            &-list a{
+                font-weight: 400;
+                font-size: 16px;
+                color: #FFFFFF;
+                opacity: 0.7;
+            }
+        }
+    }
+}

@@ -1,0 +1,5 @@
+@mixin bgimg($url, $repit, $posetion ) {
+    background-image: $url;
+    background-repeat: $repit;
+    background-position: $posetion;
+}

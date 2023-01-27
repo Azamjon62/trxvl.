@@ -1,0 +1,86 @@
+.footer{
+    background: #141414;
+    height: 288px;
+
+    .section__footer{
+        padding: 42px 0 0 0;
+        display: flex;
+
+        &__lists{
+            display: flex;
+            flex-direction: column;
+
+            &__wrapper{
+                display: flex;
+                justify-content: space-between;
+
+                .wrapper{
+                    color: #808080;
+                    margin-left: 170px;
+
+                    &__link{
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 17px;
+
+                        &-btn{
+                            margin-top: 16px;
+                            padding: 10px 15px;
+                            background: #141414;
+                            border: 1px solid #808080;
+                            color: #808080;
+                        }
+                    }
+
+                    &-text{
+                        margin-top: 20px;
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 14px;
+                        color: #808080;
+                    }
+
+                    &__icon{
+                            gap: 20px;
+                        display: flex;
+
+                        &__link{
+                            color: #808080;
+                            ion-icon{
+                                font-size: 38px;
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+            &__items{
+                display: flex;
+                gap: 160px;
+                margin-left: 175px;
+
+                &__item{
+                    .item{
+                        margin-bottom: 15px;
+
+                    }
+                    
+                    .item-link{
+                        margin-bottom: 15px;
+                        color: #808080;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 17px;
+                        transition: 0.3s;
+
+                        &:hover{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
