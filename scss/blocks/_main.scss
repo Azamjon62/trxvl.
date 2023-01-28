@@ -197,6 +197,14 @@ main{
 
 }
 
+.mountains{
+    margin-top: 346px;
+}
+
+.marb
+{
+    padding-bottom: 125px;
+}
 
 .community{
 
@@ -207,12 +215,61 @@ main{
         line-height: 37px;
         color: #000000;
     }
+
+    &__titles{
+        margin-top: 80px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        color: #fff;
+    }
     
-    &-flex{
+    &__titles-ferst{
+        margin-top: 80px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        color: #000000;
+    }
+    
+    &-flex-bazs{
         display: flex;
         justify-content: space-between;
         margin-left: 150px;
     }
+    
+    &-flex{
+        display: flex;
+        justify-content: space-between;
+
+        .bgimg{
+            background-image: url(/img/image\ 43.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 342px;
+            height: 543px;
+            margin: 18px 0 0 13px;
+            border-radius: 16px;
+            padding: 66px 24px 0 24px;
+
+            &-title{
+                margin-bottom: 24px;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 31px;
+                color: #FFFFFF;
+            }
+
+            &-text{
+                width: 284px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+            }
+        }
+    }
+
 
     &__flex{
         margin: 18px 0 0 0;
@@ -221,8 +278,84 @@ main{
         box-shadow: 0px 4px 16px rgba(158, 158, 158, 0.25);
         border-radius: 16px;
 
+        &-img{
+            background-image: url(/img/image\ 41.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 16px;
+            height: 200px;
+            position: relative;
+
+            ion-icon{
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                font-size: 34px;
+                color: #fff;
+            }
+        }
+
+        &-img1  {
+            background-image: url(/img/image\ 40.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 16px;
+            height: 200px;
+            position: relative;
+
+            ion-icon{
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                font-size: 34px;
+                color: #fff;
+            }
+        }
+
+        &-img2  {
+            background-image: url(/img/image\ 42.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 16px;
+            height: 200px;
+            position: relative;
+
+            ion-icon{
+                position: absolute;
+                top: 16px;
+                right: 16px;
+                font-size: 34px;
+                color: #fff;
+            }
+        }
+
+
+
         &__wrapper{
             margin-top: 24px;
+
+            &__starts{
+                display: flex;
+                justify-content: space-between;
+                
+                .stars{
+                    display: flex;
+                    align-items: center;
+
+                    &-img{
+                        width: 22px;
+                    }
+
+                    &-num{
+                        margin: 0 0 0 8px;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 31px;
+                        color: #000000;
+                    }
+                }
+            }
+
 
             &-title{
                 font-weight: 400;
@@ -238,6 +371,72 @@ main{
                 line-height: 20px;
                 color: #000000;
                 opacity: 0.5;
+            }
+
+            &__facilities{
+                margin-top: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+
+                .facilities__box{
+                    &-img{
+                        width: 26px;
+                    }
+                    &-title{
+                        margin-top: 8px;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 15px;
+                        color: #000000;
+                        opacity: 0.5;
+                    }
+                }
+            }
+
+            &-texts{
+                margin-top: 24px;
+                li{
+                    margin-bottom: 8px;
+                    list-style: inside;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #000000;
+                    opacity: 0.5;
+                }
+            }
+
+            &__price{
+                display: flex;
+                align-items: center;
+                margin-top: 21px;
+                .price-first{
+                    font-weight: 100;
+                    font-size: 17px;
+                    line-height: 20px;
+                    text-decoration-line: line-through;
+                    color: #000000;
+                }
+
+                .price-second{
+                    margin-left: 24px;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 31px;
+                    color: #000000;
+                }
+
+                sub{
+                    margin-left: 4px;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #000000;
+                    opacity: 0.5;
+                }
+
             }
         }
     }
